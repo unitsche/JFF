@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: python-example
-        image: <IMAGE>
+        image: python-example
         ports:
         - containerPort: 80
         resources:
@@ -35,7 +35,9 @@ kind: Service
 metadata:
   name: python-example-service
 spec:
-  type: LoadBalancer
+  #type: LoadBalancer
+    selector:
+    app: thumbor
   ports:
     - name: http
       protocol: TCP
