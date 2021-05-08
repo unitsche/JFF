@@ -1,4 +1,4 @@
 JFF
 ===
 
-just for fun - all kinda stuff
+just for fun - test what you can and play
