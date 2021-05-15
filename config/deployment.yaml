@@ -22,7 +22,7 @@ spec:
     spec: 
       containers: 
         - name: python-example
-          image: python-example
+          image: <IMAGE>
           ports: 
             - 
               containerPort: 80
