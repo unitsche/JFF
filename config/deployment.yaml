@@ -21,9 +21,8 @@ spec:
         app: python-example
     spec: 
       containers: 
-        - 
+        - name: python-example
           image: python-example
-          name: python-example
           ports: 
             - 
               containerPort: 80
